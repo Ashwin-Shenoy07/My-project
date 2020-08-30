@@ -1,116 +1,209 @@
 <html>
     <head>
         <title>A S G Fruits & Vegetables</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css">
     </head>
     <body>
         <!--login/ signup section-->
         <header>
             <div class="contact-info">
-                <span>Call us @ 9448623855</span>
-            </div>
-            <div class="menu show-desktop hide-mobile">
-                <ul>
-                    <li><a href="#">Login/Signup</a></li>
-                    <li><a href="#">My Cart</a></li>
-                </ul>
+                <a href="#">Call us @ 9448623855</a>
+                <a href="#">Login/Signup</a>
+                <a href="#">My Cart</a>
+                <a href="#">Announcements</a>
             </div>
         </header>
         
-        <!--logo and search bar-->
-        <section class="main tab">
-            <a href="#">Announcements</a>
-            <div class="logo">
-                <img src="/images/ASG.png" alt="A S G Fruits & Vegetables">
-            </div>
+        <!--logo-->
             <div>
-                <form class="search-bar" >
-                    <input type="text" placeholder="Search.." name="search">
-                    <button type="submit">search</button>
-                </form>
+                <img src="images/ASG.png" alt="A S G Fruits & Vegetables"  class="logo">
             </div>
-        </section>
 
         <!--Navigation bar-->
-        <nav class="nav-bar">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Vegetables</a></li>
-                <li><a href="#">Fruits</a></li>
-                <li<a href="#">>Offers</a></li>
-                <li<a href="#">>Contact Us</a></li>
-                <li><a href="#">About us</a></li>
-            </ul>
-        </nav>
+        <div class="gray-container">
+                <ul class="nav" id="nav">    
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Vegetables</a></li>
+                    <li><a href="#">Fruits</a></li>
+                    <li><a href="#">Offers</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">About us</a></li>
+                </ul>
+                <div class="search-bar" >
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit">search</button>
+                </div>
+        </div>
+
 
         <!--Main image with tagline-->
         <div class="image">
-            <img src="/images/main.jfif" alt="A S G FRUITS AND VEGETABLES">
+            <img src="images/main.jfif" alt="A S G FRUITS AND VEGETABLES">
             <h1 class="heading">100% FRESH AND ORGANIC FOOD</h1>
             <h5 class="subhead">We Deliver Organic Fruits and Vegetables </h5>
         </div>
 
         <!--top selling section-->
-        <div class="container">
+        <div class="container-tab">
             <div class="dual_tab">
                 <h1>Top Selling Offers</h1>
-                <button>tab 1</button>
-                <button>tab 2</button>
             </div>
             <div class="panel">
-                <panel>tab1: content</panel>
-                <panel>tab2: content</panel>
+                <li>FRUITS</li>
+                <div class="tab-panel" id="panel">      
+                    <div class="row">
+                        <div class="column">
+                            <img src="images/apple.jfif" alt="apple">
+                        </div>
+                        <div class="column">
+                            <img src="images/mango.jfif" alt="mango">
+                        </div>
+                        <div class="column">
+                            <img src="images/orange.jfif" alt="Mountains">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <img src="images/banana.jfif" alt="banana">
+                        </div>
+                        <div class="column">
+                            <img src="images/kiwi.jfif" alt="kiwi">
+                        </div>
+                        <div class="column">
+                            <img src="images/watermelon.jfif" alt="watermelon">
+                        </div>
+                    </div>
+                </div>
             </div>
-
+            <div class="panel1">
+                <li>VEGETABLES</li>
+                <div class="tab-panel" id="panel">                   
+                    <div class="row">
+                        <div class="column">
+                            <img src="images/Beetroot.jfif" alt="Beetroot">
+                        </div>
+                        <div class="column">
+                            <img src="images/carrot.jfif" alt="carrot">
+                        </div>
+                        <div class="column">
+                            <img src="images/Cauliflower.jfif" alt="Cauliflower">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <img src="images/Cucumber.jfif" alt="Cucumber">
+                        </div>
+                        <div class="column">
+                            <img src="images/ladyfinger.jfif" alt="ladyfinger">
+                        </div>
+                        <div class="column">
+                            <img src="images/potato.jfif" alt="potato">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!--image slider-->
-        <div class="slider">
-            <img src="/images/slider1.jpg">
-            <img src="/images/slider2.jfif">
-            <img src="/images/slider3.jfif">
-            <img src="/images/slider4.jfif">
-            <img src="/images/slider5.jfif">
-        </div>
+        <div class="slideshow-container">
 
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="images/slider1.jpg" style="width:100%">
+              <div class="text">Fresh!!!!</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="images/slider2.jfif" style="width:100%">
+              <div class="text">Fresh!!!!</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="images/slider3.jfif" style="width:100%">
+              <div class="text">Fresh!!!!</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="images/slider4.jfif" style="width:100%">
+                <div class="text">Fresh!!!!</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="images/slider5.jfif" style="width:100%">
+                <div class="text">Fresh!!!!</div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span> 
+              <span class="dot" onclick="currentSlide(5)"></span>  
+            </div>
+            
         <!--New offer section-->
         <div class="container-newoffer">
             <h1>New Offers</h1>
-            <panel>new offer content</panel>
+            <div class="offers">
+                <div class="row">
+                    <div class="column">
+                        <img src="images/garlic.jfif" alt="Beetroot">
+                    </div>
+                    <div class="column">
+                        <img src="images/tomato.jfif" alt="carrot">
+                    </div>
+                    <div class="column">
+                        <img src="images/onion.jfif" alt="Cauliflower">
+                    </div>
+                </div>
+            </div>
+
         </div>
 
         <!--footer section-->
         <div class="footer">
-            <ul>
-                <li> Contact
-                    <ul>
-                        <li>Gurukripa near "Anjaneya Temple" Carstreet Saligrama, Udupi, Karnataka-576225</li>
-                        <li>asg_saligrama@gmail.com</li>
-                        <li>9448623855</li>
+                <div class="foot-lists">
+                    <ul> Contact
+                            <li><a href="#"> Gurukripa near "Anjaneya Temple" Carstreet<br> Saligrama, Udupi, Karnataka-576225</a></li>
+                            <li><a href="#">asg_saligrama@gmail.com</a></li>
+                            <li><a href="#"> 9448623855</a></li>
                     </ul>
-                </li>
-                <li>Information
-                    <ul>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">Special Products</a></li>
+                </div>
+
+                <div class="foot-lists">
+                    <ul>Information
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Special Products</a></li>
                     </ul>
-                </li>
-                <li>Categories
-                    <ul>
-                        <li><a href="#">Vegetables</a></li>
-                        <li><a href="#">Fruits</a></li>
-                        <li><a href="#">Organic Products</a></li>
+                </div>
+                <div class="foot-lists">
+                    <ul>Categories
+                            <li><a href="#">Vegetables</a></li>
+                            <li><a href="#">Fruits</a></li>
+                            <li><a href="#">Organic Products</a></li>
                     </ul>
-                </li>
-                <li>Profile
-                    <ul>
-                        <li><a href="#">Signup</a></li>
-                        <li><a href="#">Login</a></li>
-                        <li><a href="#">My cart</a></li>
+                </div>
+
+                <div class="foot-lists">
+                    <ul>Profile
+                            <li><a href="#">Signup</a></li>
+                            <li><a href="#">Login</a></li>
+                            <li><a href="#">My cart</a></li>
                     </ul>
-                </li>
-            </ul>
+                </div>
         </div>
-        
+    <script src="main.js"></script>
+
     </body>
 </html>
